@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@94.7,523&display=swap');
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(111, 107, 99, 0.7);
+    z-index: 999;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+    padding: 15px 30px;
+    gap: 50px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Noto-Serif;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #011012;
+}
+
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    text-align: right;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50%) translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%) translateX(0);
+    }
+}
