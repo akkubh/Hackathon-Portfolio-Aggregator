@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashborad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <section id="new-project">
+            <h2>Add New Hackathon Project</h2>
+            <div class="new-project-box">
+                <form action="script.js" method="post" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label for="comp-name">Hackathon Name:</label>
+                        <input type="text" id="comp-name" name="comp-name" placeholder="Enter hackathon name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="start-date">Start Date:</label>
+                        <input type="date" id="start-date" name="start-date" required>
+
+                        <label for="end-date">End Date:</label>
+                        <input type="date" id="end-date" name="end-date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comp-host">Host Organisation:</label>
+                        <input type="text" id="comp-host" name="comp-host" placeholder="Enter organiser name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comp-description">Project Description:</label>
+                        <textarea id="comp-description" name="comp-description" rows="4"
+                            placeholder="Type your project description here..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ppt">Upload PPT:</label>
+                        <input type="file" id="ppt" name="ppt" accept=".ppt,.pptx,.pdf" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="certificate">Upload Certificate:</label>
+                        <input type="file" id="certificate" name="certificate" accept=".jpg,.jpeg,.png,.pdf" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="repo-link">GitHub Repository Link:</label>
+                        <input type="url" id="repo-link" name="repo-link" placeholder="https://github.com/your-repo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="project-link">Live Project Link:</label>
+                        <input type="url" id="project-link" name="project-link"
+                            placeholder="https://yourprojectlink.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="skills-learned">Skills Acquired:</label>
+                        <input type="text" id="skills-learned" name="skills-learned"
+                            placeholder="e.g., React, Node.js, Figma">
+                    </div>
+
+                    <button class="submit-btn" type="submit" aria-label="Submit Hackathon Project">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>

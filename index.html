@@ -4,19 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Aggregator</title>
+    <title>Hackfolio</title>
     <meta name="description"
         content="Hackfolio is a smart dashboard for students to showcase their projects, achievements, certificates, and event participation – all in one exportable portfolio. Built for hackathons and beyond.">
-        <link rel="stylesheet" href="style.css">
+    <meta name="keywords"
+        content="hackfolio, student portfolio, hackathon dashboard, project showcase, coding profile, tech resume, achievements tracker, certificates, coding competitions">
+    <meta name="Ankita Bhargava" content="Team Hackfolio">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#index">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#login">Login</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -24,60 +27,163 @@
     </header>
 
     <main>
-        <div class="hero-container">
+        <section class="hero-container">
             <img src="https://previews.123rf.com/images/eakrinr/eakrinr2207/eakrinr220700030/188596427-top-view-desk-and-computer-tablet-or-laptop-with-a-pen-and-office-equipment-for-working-area-copy.jpg"
-                alt="bg1" class="hero-image" width="web-kit-fit-available">
+                alt="bg1" class="hero-image">
             <div class="hero-text">
                 <h1>Hackfolio</h1>
                 <h2>Share your hustle, Not just your GPA</h2>
             </div>
-        </div>
-        <div>
-            <section id="login">
-                <div class="form-box">
-                    <h2>Start Building</h2>
-                    <p>Login/SignUp</p>
-                    <form>
-                        <div class="form-group">
-                            <label for="Name">Name</label>
-                            <input type="text" id="Name" placeholder="Enter your name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="Date-Of-Birth">Date of Birth</label>
-                            <input type="date" id="Date-Of-Birth" name="Date-Of-Birth">
-                        </div>
-                        <div class="form-group">
-                            <label for="Email-Id">Email-Id</label>
-                            <input type="text" id="Email-Id" placeholder="Enter your email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="Organisation">Organisation</label>
-                            <input type="text" id="Organisation" placeholder="Your enrolled Institution/Organisation"
-                                required>
-                        </div>
-                        <button class="submit-btn" type="submit"><a href="dashboard.html">Submit</a></button>
-                    </form>
-                </div>
-            </section>
-        </div>
+        </section>
+
+        <section id="home">
+            <h2>Welcome to Hackfolio!!</h2>
+            <p>
+                Your all-in-one space to showcase hackathon journeys, wins, and wild ideas.<br>
+                From team collabs to solo sprints, build your coding story like never before.<br>
+                No more cluttered folders or lost certificates—just one sleek portfolio link.<br>
+                Start owning your hustle, one hack at a time!
+            </p>
+        </section>
+
+
+        <section id="about">
+            <h2>Why do you need a project aggregator?</h2>
+            <div class="info-section">
+                <img src="https://media.istockphoto.com/id/1062001248/vector/centralized-blockchain.jpg?s=612x612&w=0&k=20&c=xZvw-ZuvSB8jANxIp9kSFFZha1AK1bZO26e1gRn_hVE="
+                    alt="centralised" width="250px">
+                <span>Students participate in tons of competitions, hackathons, and workshops—but all that effort
+                    gets buried in scattered folders, certificates, and Google Drives. Hackfolio brings everything
+                    under one digital roof.</span>
+            </div>
+            <div class="info-section">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/014/762/057/small_2x/personal-branding-round-outline-illustration-or-banner-vector.jpg"
+                    alt="personal-brand" width="250px">
+                <span>Recruiters and mentors don’t just want grades—they want projects, initiatives, and impact.
+                    Hackfolio helps students present their real achievements in a clean, credible portfolio
+                    format.</span>
+            </div>
+            <div class="info-section">
+                <img src="https://media.istockphoto.com/id/1281839375/vector/file-transfer-and-remote-working.jpg?s=612x612&w=0&k=20&c=jXMXeDxdcfYFkUjgD5j-BAB943G0OZ-6HtL0RZYZVgo="
+                    alt="easy-sharing" width="250px">
+                <span>With one public link, students can share their tech journey with event organizers,
+                    interviewers, or even on LinkedIn—without sending 10 PDFs.</span>
+            </div>
+            <div class="info-section">
+                <img src="https://epe.brightspotcdn.com/49/f2/c0c2f6be46a08970d674ca7ef65f/opinion-only-classroom-1281311404-02.jpg"
+                    alt="beyond-classroom" width="250px">
+                <span>Traditional resumes miss the story behind hackathons. Hackfolio shows your challenges, ideas,
+                    roles, and growth—something a GPA can't capture.</span>
+            </div>
+            <div class="info-section">
+                <img src="https://media.istockphoto.com/id/1412778148/vector/online-meeting.jpg?s=612x612&w=0&k=20&c=bTK4nlDMQE-MBPzxVbzGt_FJYvkVVVmitVRW17zWXiI="
+                    alt="community-collab" width="250px">
+                <span>When students see others’ work, they get inspired to team up, apply for new challenges, or
+                    build better next time. Hackfolio becomes a source of motivation.</span>
+            </div>
+
+            <h2>How Hackfolio helps?</h2>
+            <h3>Hackfolio is the missing link between your hard-earned achievements and your digital presence.</h3>
+            <ol>
+                <li>
+                    <h4>Acts as a Central Portfolio</h4>
+                    <p>
+                        Hackfolio collects all your hackathon entries, competition wins, open-source contributions,
+                        and project highlights—automatically or manually—and organizes them neatly in one place.
+                        Centralize all your hackathon achievements, projects, and certificates
+                    </p>
+                </li>
+                <li>
+                    <h4>Streamlines Your Story</h4>
+                    <p>
+                        Instead of scrambling through certificates, folders, or emails, Hackfolio presents your
+                        growth journey—what you built, learned, and accomplished—with a click. Track your hackathon
+                        journey with visual stats
+                    </p>
+                </li>
+                <li>
+                    <h4>Boosts Visibility & Credibility</h4>
+                    <p>
+                        Want to show a recruiter or a hackathon organizer your real work? Hackfolio gives you a
+                        shareable, professional portfolio link that speaks louder than a resume. Share your
+                        portfolio with a single link – no PDFs needed.
+                    </p>
+                </li>
+                <li>
+                    <h4>Saves Time, Adds Impact</h4>
+                    <p>
+                        No more building portfolios from scratch every time. Hackfolio standardizes your
+                        achievements, giving you more time to build and create, not organize.
+                    </p>
+                </li>
+                <li>
+                    <h4>Makes You Discoverable</h4>
+                    <p>
+                        When students share their Hackfolios, it creates a network of like-minded creators—others
+                        can discover your work, reach out for collaborations, or even invite you to join new
+                        challenges. Stand out to recruiters, mentors, and peers
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+        <section id="login">
+            <div class="form-box">
+                <h2>Start Building</h2>
+                <h3>Login/SignUp</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Date-Of-Birth">Date of Birth</label>
+                        <input type="date" id="Date-Of-Birth" name="Date-Of-Birth" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Role">Role</label>
+                        <select id="role-type" name="Your role" required>
+                            <option value="no-option">Select Your Role</option>
+                            <option value="high school student">High School Student</option>
+                            <option value="undergrad">Undergrad</option>
+                            <option value="postgrad">Postgrad</option>
+                            <option value="working professional">Working Professional</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email-Id">Email-Id</label>
+                        <input type="text" id="Email-Id" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Organisation">Organisation</label>
+                        <input type="text" id="Organisation" placeholder="Your enrolled Institution/Organisation"
+                            required>
+                    </div>
+                    <button class="submit-btn" type="submit"><a href="dashboard.html">Submit</a></button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>© 2025 Hackfolio. All rights reserved.</p>
+            <div>
+                <h3>Get started for free</h3>
+                <p>Try Hackfolio for as long as you like with our free Starter plan. Upgrade for premium features.
+                </p>
+                <button class="login/signup"><a href="#login">Get started-it's free</a></button>
+            </div>
+            <p>&copy; 2025 Hackfolio. All rights reserved.</p>
             <p>Made by Team Hackfolio</p>
             <ul>
-                <li><a href="https://Instagram.com" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
-                </li>
-                <li><a href="https://LinkedIn.com" target="blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="mailto:hackfolio.team@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
-                <li><a href="https://discord.com" target="blank"><i class="fa-brands fa-discord"></i></a></li>
-                <a href="#privacy">Privacy Policy</a>
-
+                <li><a href="https://Instagram.com" target="_main">Instagram</a></li>
+                <li><a href="https://LinkedIn.com" target="_main">LinkedIn</a></li>
+                <li><a href="mailto:hackfolio.team@gmail.com">Mail</a></li>
+                <li><a href="https://discord.com" target="_main">Discord</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>
