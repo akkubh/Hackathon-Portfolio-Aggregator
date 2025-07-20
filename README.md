@@ -1,50 +1,48 @@
 # Hackathon-Portfolio-Aggregator
-This project solves the problem of students not being able to organize or showcase their achievements easily.  
+*Problem Statement-* This project solves the problem of students not being able to organize or showcase their achievements easily.  
 The dashboard allows users to:
 1. Add their hackathon projects
 2. Upload certificates
 3. Showcase events they participated in 
 4. Export a public portfolio link or downloadable PDF
 
-🧠 Hackfolio
-Hackfolio is your one-stop solution to track, showcase, and manage your hackathon and competition journey! Whether you're a student coder, a designer, or a budding innovator, Hackfolio helps you build your digital portfolio of achievements and learnings.
+## **🧠Progresso**
+Progresso is your one-stop solution to track, showcase, and manage your hackathon and competition journey! Whether you're a student coder, a designer, or a budding innovator, Progresso helps you build your digital portfolio of achievements,learnings and shows your progess till date.
 
-🚀 Features
-🎯 Centralized Dashboard to store hackathon participation details
+## **🚀Features**
+1. Centralized Dashboard to store hackathon participation details
 
-📅 Track event dates, organizers, and submission links
+2. Track event dates, organizers, and submission links
 
-📂 Upload PPTs, certificates, GitHub repositories, and live project links
+3. Upload PPTs, certificates, GitHub repositories, and live project links
 
-👩‍💻 Personalized user profile with LinkedIn and role info
+4. Personalized user profile with LinkedIn and role info
 
-➕ Easy-to-use “Add New Project” popup
+5. Easy-to-use “Add New Project” popup
 
-🔍 Serves as a hackathon/competition aggregator
+6. Serves as a hackathon/competition aggregator
 
-💡 Why Hackfolio?
-Students participate in multiple competitions and hackathons but often lose track of their learnings, links, and documentation. Hackfolio acts as a digital repository and tracker, helping users:
+## **💡Why Progresso?**
+Students participate in multiple competitions and hackathons but often lose track of their learnings, links, and documentation. Progresso acts as a digital repository and tracker, helping users:
 
-Stay organized
+- Stay organized
 
-Build an achievement portfolio
+- Build an achievement portfolio
 
-Share a single link for resumes or applications
+- Share a single link for resumes or applications
 
-Monitor their growth over time
+- Monitor their growth over time
 
-🛠 Tech Stack
-HTML5, CSS3, JavaScript
-
-Frontend Only (can be extended to full-stack)
+## **🛠Tech Stack**
+- HTML5, CSS3, JavaScript
 
 Responsive and SEO-friendly structure
 
-💻 Future Enhancements
-🔐 User Authentication (Login/Signup with database)
+## **💻Future Enhancements**
+1. User Authentication (Login/Signup with database)
 
-🧾 Dynamic Data Storage (Firebase/MongoDB)
+2. Dynamic Data Storage (Firebase/MongoDB)
 
-📊 Analytics for user progress
+3. Analytics for user progress
 
-🔗 Shareable public profiles
+4. Shareable public profiles
