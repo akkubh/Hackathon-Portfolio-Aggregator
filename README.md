@@ -6,8 +6,8 @@ The dashboard allows users to:
 3. Showcase events they participated in 
 4. Export a public portfolio link or downloadable PDF
 
-## **🧠Progresso**
-Progresso is your one-stop solution to track, showcase, and manage your hackathon and competition journey! Whether you're a student coder, a designer, or a budding innovator, Progresso helps you build your digital portfolio of achievements,learnings and shows your progess till date.
+## **🧠Hackfolio**
+Hackfolio is your one-stop solution to track, showcase, and manage your hackathon and competition journey! Whether you're a student coder, a designer, or a budding innovator, Hackfolio helps you build your digital portfolio of achievements,learnings and shows your progess till date.
 
 ## **🚀Features**
 1. Centralized Dashboard to store hackathon participation details
@@ -22,8 +22,8 @@ Progresso is your one-stop solution to track, showcase, and manage your hackatho
 
 6. Serves as a hackathon/competition aggregator
 
-## **💡Why Progresso?**
-Students participate in multiple competitions and hackathons but often lose track of their learnings, links, and documentation. Progresso acts as a digital repository and tracker, helping users:
+## **💡Why Hackfolio?**
+Students participate in multiple competitions and hackathons but often lose track of their learnings, links, and documentation. Hackfolio acts as a digital repository and tracker, helping users:
 
 - Stay organized
 
